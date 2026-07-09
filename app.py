@@ -28,9 +28,3 @@ def analyze(request: RequirementRequest):
         "success": True,
         "result": result
     }
-
-    # except Exception as e:
-    #     return {
-    #         "success": False,
-    #         "error": str(e)
-    #     }
