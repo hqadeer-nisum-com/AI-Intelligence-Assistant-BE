@@ -175,7 +175,7 @@ GET /
 ### Request
 
 ```
-POST /analyze
+POST /assistant/chat
 ```
 
 Request Body

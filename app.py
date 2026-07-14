@@ -20,7 +20,7 @@ app.add_middleware(
 class RequirementRequest(BaseModel):
     ticket: str
 
-@app.post("/analyze")
+@app.post("/assistant/chat")
 def analyze(request: RequirementRequest):
     result = analyze_requirement(request.ticket)
 
